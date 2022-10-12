@@ -20,10 +20,6 @@
   <span><a href="./README.md">English</a> | 简体中文</span>
 </p>
 
-<p align='center'>
-  <a href="https://vitify-admin.netlify.app/">在线 Demo</a>
-</p>
-
 ## 特性
 
 + ⚡️ [Vite 3](https://cn.vitejs.dev) - 构建工具（就是快！）
