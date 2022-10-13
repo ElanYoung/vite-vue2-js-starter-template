@@ -5,13 +5,25 @@
 </template>
 
 <script>
+import User from '@/api/user';
+
 export default {
   data() {
-    return {};
+    return {
+      username: '',
+      password: '',
+    };
   },
   computed: {},
-  created() {},
-  methods: {},
+  created() {
+    this.login();
+  },
+  methods: {
+    async login() {
+      const res = await User.login(this.username, this.password);
+      console.log(res);
+    },
+  },
 };
 </script>
 
