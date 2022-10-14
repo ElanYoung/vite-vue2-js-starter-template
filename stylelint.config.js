@@ -5,6 +5,8 @@ module.exports = {
   plugins: ['stylelint-order'],
   customSyntax: 'postcss-html',
   rules: {
+    // 不允许未知函数
+    'function-no-unknown': null,
     // 指定类选择器的模式
     'selector-class-pattern': null,
     // 禁止空源码
@@ -136,13 +138,16 @@ module.exports = {
       files: ['*.vue', '**/*.vue', '*.html', '**/*.html'],
       extends: ['stylelint-config-html'],
       rules: {
+        // 指定关键帧名称的模式
         'keyframes-name-pattern': null,
+        // 禁止未知的伪类选择器
         'selector-pseudo-class-no-unknown': [
           true,
           {
             ignorePseudoClasses: ['deep', 'global'],
           },
         ],
+        // 禁止未知的伪元素选择器
         'selector-pseudo-element-no-unknown': [
           true,
           {
