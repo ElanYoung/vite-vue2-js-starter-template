@@ -1,5 +1,5 @@
 import { fileURLToPath, URL } from 'node:url';
-
+import { resolve } from 'path';
 import { defineConfig, loadEnv } from 'vite';
 import legacy from '@vitejs/plugin-legacy';
 import vue2 from '@vitejs/plugin-vue2';
@@ -24,7 +24,11 @@ export default (mode) => {
     css: {
       preprocessorOptions: {
         less: {
-          modifyVars: {},
+          modifyVars: {
+            hack: `true; @import (reference) "${resolve('src/style/variables.less')}";`,
+          },
+          math: 'strict',
+          javascriptEnabled: true,
         },
       },
     },
