@@ -22,6 +22,10 @@
   <b>Vite3</b> + <b>Vue2</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Vuex</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
 </p>
 
+<p align='center'>
+  <a href="https://elanyoung.github.io/vite-vue2-js-starter-template">Live Demo</a>
+</p>
+
 <p align="center">
   <span>English | <a href="./README.zh-CN.md">简体中文</a></span>
 </p>
