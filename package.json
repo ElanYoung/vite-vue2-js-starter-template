@@ -1,5 +1,5 @@
 {
-  "name": "vite-vue2-js-template-starter",
+  "name": "vite-vue2-js-starter-template",
   "description": "Vue2 JavaScript Starter Project For Vite.",
   "version": "0.0.0",
   "license": "MIT",
@@ -8,7 +8,7 @@
     "email": "william@starimmortal.com",
     "url": "https://doc.starimmortal.com"
   },
-  "homepage": "https://github.com/ElanYoung/vite-vue2-js-template-starter",
+  "homepage": "https://ElanYoung.github.io/vite-vue2-js-starter-template",
   "repository": {
     "type": "git",
     "url": "git@github.com:ElanYoung/vite-vue2-js-template-starter.git"

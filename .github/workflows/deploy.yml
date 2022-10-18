@@ -1,0 +1,36 @@
+name: Vite Vue Deploy
+
+on:
+  push:
+    # master 分支有 push 时触发
+    branches: [master]
+
+jobs:
+  deploy:
+    # 虚拟机环境
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js v14.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+
+      - name: Install
+        # 安装依赖
+        run: npm install
+
+      - name: Build
+        # 打包
+        run: npm run build
+
+      - name: Deploy
+        # 使用部署到 GitHub pages 的 action
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # 部署打包目录
+          publish_dir: ./dist
+          # 密钥名
+          github_token: ${{ secrets.VITE_VUE_DEPLOY }}
