@@ -7,16 +7,23 @@ on:
 
 jobs:
   deploy:
-    # 虚拟机环境
+    # 指定虚拟机环境
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [14.x, 16.x]
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        # 拉取 GitHub 仓库代码
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js v14.x
-        uses: actions/setup-node@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        # 设定 Node.js 环境
+        uses: actions/setup-node@v3
         with:
-          node-version: '14.x'
+          node-version: ${{ matrix.node-version }}
 
       - name: Install
         # 安装依赖
@@ -27,10 +34,11 @@ jobs:
         run: npm run build
 
       - name: Deploy
-        # 使用部署到 GitHub pages 的 action
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           # 部署打包目录
-          publish_dir: ./dist
+          folder: dist
           # 密钥名
-          github_token: ${{ secrets.VITE_VUE_DEPLOY }}
+          token: ${{ secrets.VITE_VUE_DEPLOY }}
+          # 分支
+          branch: gh-pages
