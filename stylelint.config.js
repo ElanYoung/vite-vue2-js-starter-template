@@ -1,7 +1,7 @@
 module.exports = {
   root: true,
   defaultSeverity: 'error',
-  extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
+  extends: ['stylelint-config-standard', 'stylelint-config-prettier', 'stylelint-config-html/vue'],
   plugins: ['stylelint-order'],
   customSyntax: 'postcss-html',
   rules: {
@@ -40,6 +40,8 @@ module.exports = {
         severity: 'warning',
       },
     ],
+    // 不允许值使用供应商前缀
+    'value-no-vendor-prefix': null,
     // 禁止未知的伪类选择器
     'selector-pseudo-class-no-unknown': [
       true,
@@ -136,7 +138,7 @@ module.exports = {
   overrides: [
     {
       files: ['*.vue', '**/*.vue', '*.html', '**/*.html'],
-      extends: ['stylelint-config-html'],
+      extends: ['stylelint-config-recommended', 'stylelint-config-html', 'stylelint-config-recommended-vue'],
       rules: {
         // 指定关键帧名称的模式
         'keyframes-name-pattern': null,
@@ -159,7 +161,7 @@ module.exports = {
     {
       files: ['*.less', '**/*.less'],
       customSyntax: 'postcss-less',
-      extends: ['stylelint-config-standard', 'stylelint-config-recommended-vue'],
+      extends: ['stylelint-config-standard'],
     },
   ],
 };
