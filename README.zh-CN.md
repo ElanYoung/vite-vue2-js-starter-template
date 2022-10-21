@@ -3,10 +3,10 @@
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatility"></a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-3.1.7-3963bc.svg" alt="vue-cli" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-3.1.8-3963bc.svg" alt="vue-cli" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-2.7.11-brightgreen.svg" alt="vue">
+    <img src="https://img.shields.io/badge/vue-2.7.13-brightgreen.svg" alt="vue">
   </a>
   <a href="https://doc.starimmortal.com"><img alt="author" src="https://img.shields.io/badge/author-ElanYoung-blue.svg"/></a>
   <a href="https://github.com/ElanYoung/spring-boot-learning-examples/blob/master/LICENSE"><img alt="LICENSE" src="https://img.shields.io/github/license/ElanYoung/spring-boot-learning-examples.svg"/></a>
@@ -28,8 +28,8 @@
 
 + ⚡️ [Vite 3](https://cn.vitejs.dev) - 构建工具（就是快！）
 + 🖖 [Vue 2](https://v2.cn.vuejs.org) - 渐进式 JavaScript 框架
-+ 🚦 [Vue Router 3](https://v3.router.vuejs.org/zh) - 官方路由管理器
-+ 📦 [Vuex 3](https://v3.vuex.vuejs.org/zh) - 一个专为 Vue.js 应用程序开发的状态管理模式
++ 🚦 [Vue Router](https://v3.router.vuejs.org/zh) - 官方路由管理器
++ 📦 [Vuex](https://v3.vuex.vuejs.org/zh) - 一个专为 Vue.js 应用程序开发的状态管理模式
 + 🎨 [Less](https://less.bootcss.com/) - CSS 预处理器
 + 🔗 [Axios](https://axios-http.com/zh/) - 一个基于 promise 的网络请求库，可以用于浏览器和 node.js
 + 🧰 [Husky](https://typicode.github.io/husky/#/) + [Lint-Staged](https://github.com/okonet/lint-staged) - Git Hook 工具
@@ -48,7 +48,7 @@
 + [npm](https://www.npmjs.com) - 包管理器
 + [Visual Stuido Code 扩展](./.vscode/extensions.json)
   + [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - 自动启动 Vite 服务器
-  + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE 支持
+  + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - Vue 2 VS Code 工具
   + [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) - 一套用于统一代码格式的解决方案
   + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - 可组装的JavaScript和JSX检查工具
   + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - 代码格式化工具
@@ -108,6 +108,10 @@ npm run dev
 ## 构建
 npm run build
 ```
+
+## 成就
+
+🎉 被 [Awesome Vite.Js](https://github.com/vitejs/awesome-vite#vue-2) 社区收录啦~
 
 ## 开源协议
 

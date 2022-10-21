@@ -3,10 +3,10 @@
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatility"></a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-3.1.7-3963bc.svg" alt="vite" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-3.1.8-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/vue">
-    <img src="https://img.shields.io/badge/vue-2.7.11-brightgreen.svg" alt="vue">
+    <img src="https://img.shields.io/badge/vue-2.7.13-brightgreen.svg" alt="vue">
   </a>
   <a href="https://github.com/vuejs/vue-router">
     <img src="https://img.shields.io/badge/vue--router-3.5.4-brightgreen.svg" alt="vue-router">
@@ -32,9 +32,9 @@
 
 ## Features
 
-+ 🖖 [Vue 2.7](https://github.com/vuejs/vue) - Composition API and `<script setup>`
 + ⚡️ [Vite 3](https://github.com/vitejs/vite) - born with fastness
-+ 🚦 [Vue-Router](https://github.com/vuejs/vue-router) - The official router for Vue.js.
++ 🖖 [Vue 2.7](https://github.com/vuejs/vue) - Composition API and `<script setup>`
++ 🚦 [Vue Router](https://github.com/vuejs/vue-router) - The official router for Vue.js.
 + 📦 [Vuex](https://github.com/vuejs/vuex) - A a state management pattern + library
 + 🎨 [Less](https://github.com/less/less.js) - It's CSS, with just a little more
 + 🔗 [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
@@ -53,7 +53,7 @@
 + [npm](https://www.npmjs.com) - Package manager
 + [Visual Stuido Code Extensions](./.vscode/extensions.json)
   + [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
-  + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) - Vue 3 `<script setup>` IDE support
+  + [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) - Vue 2 tooling for VS Code
   + [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) - A solution for unifying code formats
   + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Find and fix problems in your JavaScript code
   + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - An opinionated code formatter
@@ -113,6 +113,10 @@ npm run dev
 ## build
 npm run build
 ```
+
+## Achievement
+
+🎉 Added to the [Awesome Vite.Js](https://github.com/vitejs/awesome-vite#vue-2)
 
 ## License
 
