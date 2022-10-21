@@ -1,6 +1,6 @@
 {
   "recommendations": [
-    "Vue.volar",
+    "octref.vetur",
     "antfu.vite",
     "EditorConfig.EditorConfig",
     "dbaeumer.vscode-eslint",
