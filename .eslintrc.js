@@ -32,6 +32,8 @@ module.exports = defineConfig({
     'import/extensions': 0,
     // 确保导入指向可以解析的文件/模块
     'import/no-unresolved': 0,
+    // 首选默认导出导入/首选默认导出
+    'import/prefer-default-export': 0,
     // 要求使用 let 或 const 而不是 var
     'no-var': 'error',
     // 禁止使用 new 以避免产生副作用
@@ -83,4 +85,13 @@ module.exports = defineConfig({
     // 强制箭头函数的箭头前后使用一致的空格
     'arrow-spacing': 'error',
   },
+  overrides: [
+    {
+      files: ['*.vue'],
+      rules: {
+        // 要求组件名称总是多个单词
+        'vue/multi-word-component-names': 0,
+      },
+    },
+  ],
 });
