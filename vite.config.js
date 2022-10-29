@@ -1,24 +1,16 @@
-import { fileURLToPath, URL } from 'node:url';
 import { resolve } from 'path';
 import { defineConfig, loadEnv } from 'vite';
-import legacy from '@vitejs/plugin-legacy';
 import vue2 from '@vitejs/plugin-vue2';
 
-export default (mode) => {
+export default ({ mode }) => {
   const { VITE_PORT, VITE_BASE_URL } = loadEnv(mode, process.cwd());
 
   return defineConfig({
     base: VITE_BASE_URL,
-    plugins: [
-      vue2(),
-      legacy({
-        targets: ['ie >= 11'],
-        additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
-      }),
-    ],
+    plugins: [vue2()],
     resolve: {
       alias: {
-        '@': fileURLToPath(new URL('./src', import.meta.url)),
+        '@': resolve(__dirname, 'src'),
       },
     },
     css: {
