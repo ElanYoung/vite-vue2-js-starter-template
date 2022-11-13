@@ -78,6 +78,9 @@
 If you prefer to do it manually with the cleaner git history
 
 ```bash
+# [optional] if you are using Windows, you need to close the end-of-line conversion
+git config --global core.autocrlf input
+
 # clone repository
 git clone https://github.com/ElanYoung/vite-vue2-js-starter-template
 
