@@ -79,6 +79,9 @@
 如果您更喜欢使用更干净的 git 历史记录手动执行此操作
 
 ```bash
+# [可选] 如果您使用的是 windows 系统，需要关闭换行符自动转换
+git config --global core.autocrlf input
+
 # 克隆
 git clone https://github.com/ElanYoung/vite-vue2-js-starter-template
 

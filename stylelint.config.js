@@ -163,7 +163,7 @@ module.exports = {
     {
       files: ['*.less', '**/*.less'],
       customSyntax: 'postcss-less',
-      extends: ['stylelint-config-standard'],
+      extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
     },
   ],
 };
