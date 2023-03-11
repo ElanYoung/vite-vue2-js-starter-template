@@ -1,11 +1,11 @@
-<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue2-js-template-starter" target="_blank">Vite 3 🚀 - Vue 2  Starter Template</a></h1>
+<h1 align="center"><a href="https://github.com/ElanYoung/vite-vue2-js-template-starter" target="_blank">Vite 4 🚀 - Vue 2  Starter Template</a></h1>
 
 <p align="center">
   <a href="https://nodejs.org/en/about/releases/">
     <img src="https://img.shields.io/node/v/vite.svg" alt="node compatility" />
   </a>
   <a href="https://cn.vitejs.dev" rel="nofollow">
-    <img src="https://img.shields.io/badge/vite-3.2.5-3963bc.svg" alt="vite" style="max-width:100%;" />
+    <img src="https://img.shields.io/badge/vite-4.1.2-3963bc.svg" alt="vite" style="max-width:100%;" />
   </a>
   <a href="https://github.com/vuejs/vue">
     <img src="https://img.shields.io/badge/vue-2.7.14-brightgreen.svg" alt="vue" />
@@ -25,7 +25,7 @@
 </p>
 
 <p align='center'>
-  <b>Vite3</b> + <b>Vue2</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Vuex</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
+  <b>Vite4</b> + <b>Vue2</b> + <b>JavaScript</b> + <b>Vue Router</b> + <b>Vuex</b> + <b>Less</b> + <b>Axios</b> + <b>ESLint + Stylelint + Prettier</b>
 </p>
 
 <p align='center'>
@@ -38,7 +38,7 @@
 
 ## 特性
 
-+ ⚡️ [Vite 3](https://cn.vitejs.dev) - 构建工具（就是快！）
++ ⚡️ [Vite 4](https://cn.vitejs.dev) - 构建工具（就是快！）
 + 🖖 [Vue 2](https://v2.cn.vuejs.org) - 渐进式 JavaScript 框架
 + 🚦 [Vue Router](https://v3.router.vuejs.org/zh) - 官方路由管理器
 + 📦 [Vuex](https://v3.vuex.vuejs.org/zh) - 一个专为 Vue.js 应用程序开发的状态管理模式
@@ -68,7 +68,7 @@
 
 ## 现在可以试试！
 
-> Vite3 Vue2 JavaScript Starter Template 需要 Node 版本 >= 14.18
+> Vite4 Vue2 JavaScript Starter Template 需要 Node 版本 >= 14.18
 
 ### GitHub 模板
 
